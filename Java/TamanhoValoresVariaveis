@@ -1,0 +1,54 @@
+boolean:
+
+tamanho: 1-bit, porém por convenção o java preenche o valor e o armazena como 1-byte
+faixa de valores: true ou false
+valor default: false
+
+
+char:
+
+tamanho: 2-bytes
+faixa de valores: 0 até 216– 1
+valor default: '/u0000'
+
+
+byte:
+
+tamanho: 1-byte
+faixa de valores: -127 até 127
+valor default: 0
+
+
+short:
+
+tamanho: 2-bytes
+faixa de valores: -32.768 até 32.767
+valor default: 0
+
+
+int:
+
+tamanho: 4-bytes
+faixa de valores: -2³¹ até 2³¹-1
+valor default: 0
+
+
+long:
+
+tamanho: 8-bytes
+faixa de valores: -263 até  263-1
+valor default: 0L
+
+
+float:
+
+tamanho: 4-bytes
+faixa de valores: -2-149 até (2-2-23)·2127
+valor default: 0.0f
+
+
+double:
+
+tamanho: 8-bytes
+faixa de valores: -2-1074 até (2-2-52)·21023
+valor default: 0.0d
