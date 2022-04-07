@@ -25,7 +25,7 @@ public class JogoDeAdivinhacao {
         Scanner entrada = new Scanner(System.in);
         
         Random geradorDeAleatorios = new Random();
-        sorteado = geradorDeAleatorios.nextInt(100) + 1;
+        sorteado = geradorDeAleatorios.nextInt(101);
         System.out.println("Número entre 1 e 1000 sorteado!");
         
         do{
