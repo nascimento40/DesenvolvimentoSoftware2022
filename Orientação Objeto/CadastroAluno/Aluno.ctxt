@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Aluno
+comment0.text=\r\n\ Escreva\ uma\ descri\u00E7\u00E3o\ da\ classe\ Aluno\ aqui.\r\n\ \r\n\ @author\ (seu\ nome)\ \r\n\ @version\ (um\ n\u00FAmero\ da\ vers\u00E3o\ ou\ uma\ data)\r\n
+comment1.params=RGM\ nome\ AnoIngresso
+comment1.target=Aluno(int,\ java.lang.String,\ int)
+comment1.text=\r\n\ Construtor\ para\ objetos\ da\ classe\ Aluno\r\n
+comment2.params=
+comment2.target=int\ getRGM()
+comment3.params=
+comment3.target=java.lang.String\ getnome()
+comment4.params=
+comment4.target=int\ getAnoIngresso()
+comment5.params=RGM
+comment5.target=void\ setRGM(int)
+comment6.params=nome
+comment6.target=void\ setnome(java.lang.String)
+comment7.params=AnoIngresso
+comment7.target=void\ setAnoIngresso(int)
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9
