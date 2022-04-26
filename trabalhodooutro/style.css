@@ -1,0 +1,106 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+header{
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;
+    color:#fff;
+    color:#fff;
+    padding:2px;
+    text-align: center;
+}
+
+section{
+    display: flex;
+}
+
+article{
+    margin: 50px;
+}
+
+.eujpg{
+    background-color: #ddd;
+    border-radius: 50%;
+    height: 200px;
+    object-fit: cover;
+    width: 200px;  
+    margin-left: 35px;
+}
+
+.sobre{
+    border:2px solid gray;
+    text-align: center; 
+    padding: 10px;
+    height: 600px;   
+}
+
+.sobre p{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #484D50;
+}
+
+.ulrepositorio{
+    border: 2px solid gray;
+}
+
+.lirepositorio{
+    list-style:none; 
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+.hobbie{
+    display: flex;
+    
+}
+ .hjpg{
+     width: 150px;
+     border-radius: 10%;
+     object-fit: cover;
+     height: 150px;
+     padding: 2px;
+ }
+ #outer {
+    position: relative;
+    width: 100%;
+  }
+  
+  #inner {
+    left: 10%;
+    position: absolute;
+    
+  }
+  .infocurriculo{
+      display: flex;
+      padding: 10px;
+      margin-left: 50px;
+  }
+  .titulosinfo{
+      display: flex;
+      margin-left: 170px;
+  }
+  .titulosinfo h3{
+      margin-right: 29%;
+  }
+  .titulosinfo h3:last-child {
+      margin-right: 0;
+  }
+  .gitstatus{
+      margin-left: 5%;
+      text-align: center;
+  }
+  .redes img{
+    width: 60px;
+  }
+  .redes{
+      margin-left: 49px;
+  }
