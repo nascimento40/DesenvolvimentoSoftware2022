@@ -26,5 +26,9 @@ public class FrmCalculadoraSimples extends JFrame{
         add(new JLabel("Operação:"));
         add(cbxOperacao = new JComboBox<String>(operacoes));
         add(btnCalcular = new JButton("Calcular"));
+        
+        // Criar e vincular a action ao botão
+        ActionCalcular action = new ActionCalcular(txtX, txtY, cbxOperacao);
+        btnCalcular.addActionListener(action);
     }
 }
