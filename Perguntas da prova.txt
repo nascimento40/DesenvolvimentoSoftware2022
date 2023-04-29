@@ -1,0 +1,32 @@
+Crie um componente que dada uma lista, renderize os produtos com o nome e o valor total. Quando o "desconto" for true mostre o valor com o desconto de 10% aplicado.  
+
+
+
+const listmercadorias= [
+
+ { "produto": "computador", "desconto": true, "valor": 100.00 }, 
+
+ { "produto": "luminária", "desconto": false, "valor": 200.00 }, 
+
+ { "produto": "monitor", "desconto": true, "valor": 300.00 } 
+
+ ]  
+
+Dado um menu com as seguintes opções abaixo 'Home', 'Profile', 'Produtos/1', utilize a bilioteca 'react-router-dom' e faça a configuração de rotas necessárias. Também trate caso o usuário entre em um link que não existe com a mensagem "Desculpe, página não encontrada". 
+
+Utilizando o código da questão 3 crie um componente para a lista abaixo, que receba via props desconto e valor_desconto. Dentro do seu componente, caso haja desconto, renderize "Produto com desconto de 50%! de R$ 100,00 por R$ 50,00 !"
+
+
+
+const listmercadorias= [
+
+ { "produto": "computador", "desconto": true, "valor": 100.00, 'valor_desconto': 0.50 }, 
+
+ { "produto": "luminária", "desconto": false, "valor": 200.00, 'valor_desconto': 0 }, 
+
+ { "produto": "monitor", "desconto": true, "valor": 300.00, 'valor_desconto': 0.25 } 
+
+ ]  
+
+Escreva um componente para um formulário com nome, telefone, endereço. Quando o usuário clicar em "Enviar", este componente chama uma API "localhost:5000/api/cadastro/" passando os dados do formulário via POST. Crie uma mensagem de loading e quando terminar mostre "Cadastro enviado!"
+
